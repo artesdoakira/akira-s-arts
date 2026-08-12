@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigurumis ♡ Akira's Arts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="header">
+        <div class="header-container container">
+            <a href="index.html" class="logo">
+                <img src="logo png ok.png" alt="Logo Akira's Arts" class="logo-img">
+                <span>Akira's Arts <span class="logo-heart">♡</span></span>
+            </a>
+            
+            <button class="hamburger-btn" id="hamburgerBtn" aria-label="Abrir Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="index.html" class="nav-link">Início</a></li>
+                    <li><a href="amigurumis.html" class="nav-link active">Amigurumis</a></li>
+                    <li><a href="bolsas.html" class="nav-link">Bolsas</a></li>
+                    <li>
+                        <a href="https://shopee.com.br" target="_blank" rel="noopener noreferrer" class="btn-shopee-nav">
+                            ♡ Comprar na Shopee ♡
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- BANNER DE CATEGORIA -->
+    <section class="category-banner-section">
+        <div class="container">
+            <div class="category-banner">
+                <img src="bolinhos bannerr.jpg" alt="Amigurumis Akira's Arts" onerror="this.style.display='none'">
+                <div class="category-banner-content">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DE PRODUTOS + FILTROS -->
+    <section class="products-section container">
+        <div class="filter-container">
+            <button class="filter-btn active" data-filter="all">Todos ✦</button>
+            <button class="filter-btn" data-filter="comidinhas">Comidinhas 🍓</button>
+            <button class="filter-btn" data-filter="fundo-do-mar">Fundo do Mar 🐙</button>
+            <button class="filter-btn" data-filter="outros">Outros ♡</button>
+        </div>
+
+        <div class="products-grid" id="amigurumisGrid"></div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+        <div class="container text-center">
+            <h3 class="footer-title">Akira's Arts ♡</h3>
+            <p class="footer-subtitle">Amigurumis • Crochê • Bolsas</p>
+            <div class="footer-links">
+                <a href="index.html">Início</a>
+                <a href="amigurumis.html">Amigurumis</a>
+                <a href="bolsas.html">Bolsas</a>
+                <a href="https://www.instagram.com/akira.artes_" target="_blank" rel="noopener noreferrer">Instagram</a>
+                <a href="https://www.tiktok.com/@akiras_arts" target="_blank" rel="noopener noreferrer">TikTok</a>
+                <a href="https://shopee.com.br" target="_blank" rel="noopener noreferrer">Shopee</a>
+            </div>
+            <p class="footer-copy">© 2026 Akira's Arts — Todos os direitos reservados. ✨</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
